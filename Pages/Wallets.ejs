@@ -5,13 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
-        <div>
+<body style=" background-color:#0D0F15;">
+        <div style="text-align: center; color: white; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
             <h1>Key Pair Values</h1>
         </div>
-        <div>
-            <p><%= publicKey %></p>
-            <p><%= secretKey %></p>
+        <h3 style="color: red;">Blockchain : Solana</h3>
+        <div style="color: white;">
+            <p><strong style="color: green; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" >Public Key </strong>: <%= publicKey %></p>
+            <p><strong style="color: red; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Private Key :</strong> <%= secretKey %></p>
         </div>
+       <a href="/"> <button style="background-color: #6200EE; border-style: none; border-radius: 5px; padding: 12px 20px 12px 20px; cursor: pointer; text-decoration: none; color: white; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-weight: 600;" >Back to Home</button></a>
 </body>
 </html>
